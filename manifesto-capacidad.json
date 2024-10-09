@@ -4,10 +4,6 @@
   "name": "Bot Física Mecánica",
   "description": "Capacidad de resolver problemas de física mecánica, incluyendo cinemática, dinámica, estática, y análisis de fuerzas.",
   "author": "Lore",
-  "icons": {
-    "outline": "https://example.com/icon-outline.png",
-    "color": "https://example.com/icon-color.png"
-  },
   "capabilities": {
     "commands": [
       {
