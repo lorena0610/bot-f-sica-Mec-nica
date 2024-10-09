@@ -5,8 +5,8 @@
   "description": "Capacidad de resolver problemas de física mecánica, incluyendo cinemática, dinámica, estática, y análisis de fuerzas.",
   "author": "Lore",
   "icons": {
-    "outline": "https://tudominio.com/icon-outline.png",
-    "color": "https://tudominio.com/icon-color.png"
+    "outline": "https://example.com/icon-outline.png",
+    "color": "https://example.com/icon-color.png"
   },
   "capabilities": {
     "commands": [
@@ -51,10 +51,6 @@
     ]
   },
   "permissions": {
-    "externalApis": [
-      {
-        "domain": "https://api.simulacionesfisica.com"
-      }
-    ]
+    "externalApis": []
   }
 }
