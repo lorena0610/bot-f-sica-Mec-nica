@@ -1,0 +1,60 @@
+{
+  "manifestVersion": "1.0",
+  "id": "bot-fisica-mecanica",
+  "name": "Bot Física Mecánica",
+  "description": "Capacidad de resolver problemas de física mecánica, incluyendo cinemática, dinámica, estática, y análisis de fuerzas.",
+  "author": "Lore",
+  "icons": {
+    "outline": "https://tudominio.com/icon-outline.png",
+    "color": "https://tudominio.com/icon-color.png"
+  },
+  "capabilities": {
+    "commands": [
+      {
+        "title": "Resolver Ecuación Física",
+        "description": "Resuelve ecuaciones de cinemática, dinámica y otras áreas de la física mecánica.",
+        "name": "resolver_ecuacion",
+        "parameters": [
+          {
+            "name": "ecuacion",
+            "description": "Ecuación a resolver",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "title": "Simulación de Movimiento",
+        "description": "Realiza simulaciones básicas de movimiento bajo ciertas condiciones.",
+        "name": "simular_movimiento",
+        "parameters": [
+          {
+            "name": "masa",
+            "description": "Masa del objeto en kilogramos",
+            "required": true,
+            "type": "number"
+          },
+          {
+            "name": "velocidad_inicial",
+            "description": "Velocidad inicial en metros por segundo",
+            "required": true,
+            "type": "number"
+          },
+          {
+            "name": "fuerza",
+            "description": "Fuerza aplicada en newtons",
+            "required": false,
+            "type": "number"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "externalApis": [
+      {
+        "domain": "https://api.simulacionesfisica.com"
+      }
+    ]
+  }
+}
